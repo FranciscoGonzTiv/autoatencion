@@ -101,18 +101,12 @@ export default function LoginPage() {
               </p>
             </form>
           </div>
-
           {/* Image Section */}
-          <div className="hidden lg:block relative">
-            <div className="absolute inset-0 bg-gradient-to-br from-red-100 to-red-50/90" />
-            <div className="absolute inset-0 flex items-center justify-center p-8">
-              <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/robot_img-6laTjTJeW0iHaHwxvzCsi6UrMVm1t4.png"
-                alt="Robot illustration"
-                className="w-full h-auto max-w-md transform -rotate-6"
-              />
-            </div>
-          </div>
+          <img
+              src="/Images/img-login.webp"
+              alt="TIVIT Illustration"
+              className="w-full h-full"
+            />
         </div>
       </div>
     </div>
